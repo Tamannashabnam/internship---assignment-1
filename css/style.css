@@ -87,6 +87,7 @@ body {
 }
 
 a {
+  text-decoration: none;
   color: #fff;
   width: 37px;
   height: 9px;
@@ -97,14 +98,21 @@ a {
   display: flex;
   width: 960px;
   height: 53px;
+  text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: rgb(205, 92, 92);
 
   justify-content: space-between;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 45px;
+
+
 
 }
+
+
+
+
 
 .help {
   background-image: url(/image/model.png);

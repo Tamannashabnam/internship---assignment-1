@@ -6,6 +6,8 @@ body {
 
 }
 
+
+
 .nav-bar {
 
   display: flex;
@@ -26,13 +28,14 @@ body {
 
 
 .psd {
-  margin-top: 10px;
+  margin-top: 30px;
+
 
 }
 
 .added {
   display: flex;
-  width: 1002px;
+  width: 1005px;
   height: 193px;
   background-color: rgba(235, 235, 235, 1);
   padding-left: 30px;
@@ -40,6 +43,11 @@ body {
 
 }
 
+#added-1 {
+  margin-top: 30px;
+}
+
+/* nav bar*/
 .example input [type="text"] {
 
   font-family: Georgia;
@@ -47,9 +55,34 @@ body {
   color: #fff;
   width: 78px;
   height: 36px;
-  margin-top: 10px;
+
   padding-left: 50px;
 
+
+}
+
+.inputtype input[type="text"] {
+  height: 20px;
+
+  margin-left: 20px;
+}
+
+.inputtype {
+  width: 282px;
+  height: 20px;
+  height: 61px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.example {
+  margin-top: 30px;
+  margin-left: 500px;
+}
+
+#btn {
+  background-color: rgb(205, 92, 92);
 
 }
 
@@ -57,6 +90,7 @@ a {
   color: #fff;
   width: 37px;
   height: 9px;
+  margin-top: 15px;
 }
 
 .home {
@@ -69,7 +103,11 @@ a {
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
+
 }
+
+
+
 
 
 
@@ -90,8 +128,54 @@ i {
 
 }
 
+/*title*/
+fieldset {
+  border: 10px solid transparent;
+  border-top-color: rgba(188, 188, 188, 1);
+  display: flex;
+  margin-top: 30px;
+
+  box-sizing: border-box;
+  grid-area: 1/ 1;
+  /* first row, first column */
+  padding-left: 150px;
+  padding-right: 150px;
+  width: inherit;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.last {
+  display: flex;
 
 
+}
+
+.order-1 {
+
+  margin-top: 20px;
+}
+
+.color {
+  color: red;
+
+}
+
+.img {
+  display: flex;
+}
+
+.another {
+  display: flex;
+}
+
+#amet-1 {
+  margin-left: 300px;
+}
+
+.amet {
+  display: grid;
+}
 
 .color {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,11 +184,35 @@ i {
   color: rgba(151, 69, 95, 1);
 }
 
+/* bird*/
+.bird {
+  background-color: rgba(151, 69, 95, 1);
+  border-radius: 4px;
+  width: 1005px;
+  height: 100px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+
+}
+
+.birds-main {
+  padding-bottom: 50px;
+
+}
+
+.birds {
+  padding-left: 20px;
+  font-weight: bolder;
+  color: #fff;
+}
+
 /**footer*/
 footer {
   background-color: rgba(235, 235, 235, 1);
   height: 63px;
-  width: 1130px;
+  width: 1009px;
 
   display: flex;
 
@@ -130,11 +238,23 @@ footer {
 
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+.hello {
+  display: flex;
+  width: 1003px;
+  padding-top: 50px;
+  background-color: rgba(188, 188, 188, 1);
+  border: 5px solid rgba(210, 210, 210, 1);
 }
+
+.plan {
+  display: flex;
+}
+
+.conta-1 {
+  width: 900px;
+  display: grid;
+}
+
 
 .sit img {
   width: 75%;
@@ -143,7 +263,54 @@ footer {
 @media screen and (max-width:576px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
+    padding-left: 30px;
   }
+
+
+}
+
+.last-one {
+  display: flex;
+}
+
+
+
+.conta {
+  width: 600px;
+}
+
+/* login frm*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+}
+
+.login-form input {
+  margin-top: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial-boldmt;
+  width: 228px;
+}
+
+.login-form input[type="text"] {
+
+  height: 113px;
+  top: 1561px;
+  left: 753px;
+
+  font-size: 1.5em;
+
+}
+
+.login-form input[type="submit"] {
+  background-color: rgb(151, 69, 95, 1);
+  font-family: Georgia;
+  fill: #FFFFFF;
+  color: #fff;
+  width: 83px;
 
 }
 
